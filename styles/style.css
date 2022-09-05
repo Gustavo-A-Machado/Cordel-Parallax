@@ -1,141 +1,82 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patrick+Hand&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
-
 }
-
-body{
-    min-width: 300px;
-    max-width: 1000px;
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Bebas Neue', cursive;
+    --font3:'Patrick Hand', cursive;
+}
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+    font-family: var(--font1);
 }
 
 header{
     background-color: black;
-    width: 100vw;
-    margin: auto;
     color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1em;
-    font-weight: 400;
     text-align: center;
-    margin: 0px;
-    padding: 0px 0px 30px 0px;
+    font-size: 10vw;
 }
 header h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 7vw;
-    font-weight: 400;
-    text-align: center;
-    margin: 0px;
+    padding-top: 50px ;
+    font-family: var(--font2), cursive, sans-serif;
+    font-size: 1em;
 }
-header p{
-    text-align: center;
+header p {
     font-size: 2vw;
-    font-weight: normal;
-}
-header a{
-    text-decoration: none;
-    color: rgb(0, 174, 255);
-}
-header a:hover{
-    text-decoration: underline;
-    color: rgb(0, 174, 255);
-    color: aquamarine;
+    padding-bottom: 50px;
 }
 
-#paragraph1{
-    background-color:white;
-    padding-top: 70px;
-    padding-left: 40px;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 4.3vw;
+section {
+    font-family: var(--font3);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 5vw;
+    padding-left: 30px;
+}
+section p{
+    padding-bottom: 50px;
+}
 
+.normal {
+    background-color: white;
+    color: black;
 }
-#paragraph2{
-    height: 100vh;
-    width: 100vw;
-    background-color: blue;
-    background-image: url(../imagens/background001.jpg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-    
-}
-#paragraph2 p{
-    margin: 30px 30px 10px 30px;
-    width: 45vw;
-    height: 100vh;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 4.3vw;
+.imagem {
+    background-color: darkgray;
     color: white;
-    background-color: rgba(0, 0, 0, 0.582);
-}
-
-#paragraph3{
-    background-color:white;
-    padding-top: 70px;
-    padding-left: 40px;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 4.3vw; 
-}
-
-#paragraph4{
-    height: 100vh;
-    width: 100vw;
-    background-color: blue;
-    background-image: url(../imagens/background002.jpg);
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: cover;
+    box-shadow: inset 6px 6px 13px black;
     background-attachment: fixed;
-    
+    background-size: cover;
+}
+.imagem p{
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.501);
+    text-shadow: 2px 1px 0px black;
+}
+#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+
+}
+#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+
 }
 
-#paragraph4 p {
-margin: 30px 30px 10px 30px;
-width: 45vw;
-height: 90vh;
-font-family: 'Patrick Hand', cursive;
-font-size: 4.3vw;
-color: white;
-background-color: rgba(0, 0, 0, 0.582);
-}
-
-
-#paragraph5{
-    background-color:white;
-    padding-top: 70px;
-    padding-left: 40px;
-    font-family: 'Patrick Hand', cursive;
-    font-size: 4.3vw; 
-    padding-bottom: 300px;
-}
 
 footer {
-    height: 30px;
     background-color: black;
     color: white;
+    padding: 10px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-}
-
-footer p{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
-
-footer a{
-    text-decoration: none;
-    text-align: center;
-    color: rgb(0, 174, 255);
-}
-footer a:hover {
-    color: aquamarine;
-    text-decoration: underline;
 }
