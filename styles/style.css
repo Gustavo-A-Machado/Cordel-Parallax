@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    background-color: black;
+    width: 100vw;
+    margin: auto;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 30px 0px;
+}
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7vw;
+    font-weight: 400;
+    text-align: center;
+    margin: 0px;
+}
+header p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+header a{
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}
+header a:hover{
+    text-decoration: underline;
+    color: rgb(0, 174, 255);
+    color: aquamarine;
+}
+
+#paragraph1{
+    background-color:white;
+    padding-top: 70px;
+    padding-left: 40px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 4.3em;
+
+}
+#paragraph2{
+    height: 100vh;
+    background-color: blue;
+    background-image: url(../imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#paragraph2 p{
+    margin: 30px 30px 10px 30px;
+    width: 45vw;
+    height: 90vh;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 4.3em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+#paragraph3{
+    background-color:white;
+    padding-top: 70px;
+    padding-left: 40px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 4.3em; 
+}
+
+#paragraph4{
+    height: 100vh;
+    background-color: blue;
+    background-image: url(../imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#paragraph4 p {
+margin: 30px 30px 10px 30px;
+width: 45vw;
+height: 90vh;
+font-family: 'Patrick Hand', cursive;
+font-size: 4.3em;
+color: white;
+background-color: rgba(0, 0, 0, 0.582);
+}
+
+
+#paragraph5{
+    background-color:white;
+    padding-top: 70px;
+    padding-left: 40px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 4.3em; 
+    padding-bottom: 300px;
+}
+
+footer {
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+footer p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 174, 255);
+}
+footer a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+}
