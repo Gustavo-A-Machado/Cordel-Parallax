@@ -3,8 +3,14 @@
 *{
     margin: 0px;
     padding: 0px;
-    
+
 }
+
+body{
+    min-width: 300px;
+    max-width: 1000px;
+}
+
 header{
     background-color: black;
     width: 100vw;
@@ -49,6 +55,7 @@ header a:hover{
 }
 #paragraph2{
     height: 100vh;
+    width: 100vw;
     background-color: blue;
     background-image: url(../imagens/background001.jpg);
     background-repeat: no-repeat;
@@ -60,7 +67,7 @@ header a:hover{
 #paragraph2 p{
     margin: 30px 30px 10px 30px;
     width: 45vw;
-    height: 90vh;
+    height: 100vh;
     font-family: 'Patrick Hand', cursive;
     font-size: 4.3em;
     color: white;
@@ -77,6 +84,7 @@ header a:hover{
 
 #paragraph4{
     height: 100vh;
+    width: 100vw;
     background-color: blue;
     background-image: url(../imagens/background002.jpg);
     background-repeat: no-repeat;
